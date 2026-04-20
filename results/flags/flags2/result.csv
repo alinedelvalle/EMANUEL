@@ -1,0 +1,6 @@
+,k,normalize,meka,weka,macro_fscore,model_size,hypervolume,runtime
+0,0,False,meka.classifiers.multilabel.BPNN -E 770 -H 4 -r 0.005 -m 0.3,,0.489,7371,638995054.4139999,123.87251587300125
+1,0,True,meka.classifiers.multilabel.BPNN -E 770 -H 10 -r 0.005 -m 0.3,,0.601,10083,638995054.4139999,123.87251587300125
+2,1,False,meka.classifiers.multilabel.RT,weka.classifiers.bayes.NaiveBayes -- -D,0.639,18476,638995054.4139999,123.87251587300125
+3,2,False,meka.classifiers.multilabel.RT,weka.classifiers.trees.REPTree -- -M 57 -L -1,0.429,6242,638995054.4139999,123.87251587300125
+4,2,True,meka.classifiers.multilabel.BPNN -E 86 -H 9 -r 0.019 -m 0.8,,0.502,9631,638995054.4139999,123.87251587300125

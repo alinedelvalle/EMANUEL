@@ -1,0 +1,4 @@
+,k,normalize,meka,weka,macro_fscore,model_size,hypervolume,runtime
+0,0,False,meka.classifiers.multilabel.PSt -P 4 -N 0,weka.classifiers.rules.PART -- -M 31 -R -N 4,0.447,7327,691992970.6959999,123.98868196100011
+1,0,False,meka.classifiers.multilabel.RAkELd -P 4 -N 0 -batch-size 11,weka.classifiers.trees.RandomTree -- -M 27 -K 0 -depth 15 -N 0,0.545,9899,691992970.6959999,123.98868196100011
+2,0,False,meka.classifiers.multilabel.RAkELd -P 4 -N 0 -batch-size 11,weka.classifiers.rules.JRip -- -N 1.5 -E -O 4,0.692,18939,691992970.6959999,123.98868196100011
