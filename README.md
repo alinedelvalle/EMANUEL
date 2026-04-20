@@ -21,5 +21,5 @@ The results of this algorithm are located in the folder results/name_dataset/ an
 * Objective space graph by fold.
 * Results File by fold.
 * Metrics file (CSV) with the history of the evaluated algorithms.
-* resuls.csv: algorithms and merics resulting from the k-folds.
+* results.csv: algorithms and merics resulting from the k-folds.
 * ObjectiveSpace.png: objective space resulting from the k-folds.
